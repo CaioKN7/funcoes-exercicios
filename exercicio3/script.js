@@ -2,29 +2,25 @@
 
 function imprimirSoma(numero1, numero2) {
 
-    const soma = numero1+numero2
-    console.log(soma)
+    return soma = numero1+numero2
     
 }
 
 function imprimirMiltiplicacao(numero1, numero2) {
 
-    const multiplicacao = numero1*numero2
-    console.log(multiplicacao)
+    return multiplicacao = numero1*numero2
     
 }
 
 function imprimirDivisao(numero1, numero2) {
 
-    const divisao = numero1/numero2
-    console.log(divisao)
+    return divisao = numero1/numero2
     
 }
 
 function imprimirSubtracao(numero1, numero2) {
 
-    const subtracao = numero1-numero2
-    console.log(subtracao)
+    return subtracao = numero1-numero2
     
 }
 
@@ -33,16 +29,16 @@ numero2 = +prompt ("Digite outro")
 
 //Soma
 console.log("A soma desses 2 números é:")
-imprimirSoma(numero1,numero2)
+ console.log(imprimirSoma(numero1,numero2))
 
 //Multiplicação
 console.log("A multiplicacação desses 2 números é:")
-imprimirMiltiplicacao(numero1,numero2)
+console.log(imprimirMiltiplicacao(numero1,numero2))
 
 //Divisão
 console.log("A divisão desses 2 números é:")
-imprimirDivisao(numero1,numero2)
+console.log(imprimirDivisao(numero1,numero2))
 
 //Subtração
 console.log("A subtração desses 2 números é:")
-imprimirSubtracao(numero1,numero2)
+console.log(imprimirSubtracao(numero1,numero2))
